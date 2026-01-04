@@ -26,6 +26,6 @@ public class pro_butterflypattern {
   }
       }
     public static void main(String[] args){
-      inve(5);
+      inve(10);
     }
 }
