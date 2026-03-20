@@ -10,3 +10,4 @@ public class MaxInArray {
         System.out.println("Max = " + max);
     }
 }
+//java code
