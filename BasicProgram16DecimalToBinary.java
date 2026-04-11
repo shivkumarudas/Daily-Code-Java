@@ -8,5 +8,8 @@ public class BasicProgram16DecimalToBinary {
         String binary = Integer.toBinaryString(decimal);
         System.out.println("Binary equivalent: " + binary);
         scanner.close();
+
+
+        
     }
 }
