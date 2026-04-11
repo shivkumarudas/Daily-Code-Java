@@ -15,6 +15,9 @@ public class BasicProgram21CountDigits {
             temp /= 10;
         }
 
+
+        
+
         System.out.println("Number of digits: " + count);
         scanner.close();
     }
