@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class BasicProgram58SmallestOfThreeNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int first = scanner.nextInt();
+
+        System.out.print("Enter second number: ");
+        int second = scanner.nextInt();
+
+        System.out.print("Enter third number: ");
+        int third = scanner.nextInt();
+
+        int smallest = Math.min(first, Math.min(second, third));
+        System.out.println("Smallest number: " + smallest);
+    }
+}
